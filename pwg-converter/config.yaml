@@ -1,0 +1,17 @@
+name: "PWG Raster Converter"
+description: "..."
+version: "0.1.0"
+slug: "pwg_converter"
+image: "ghcr.io/binaery82/pwg-converter-{arch}"
+init: false
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+ports:
+  8099/tcp: null
+options:
+  dpi: 300
+schema:
+  dpi: int(72,4800)

@@ -1,0 +1,7 @@
+configuration:
+  dpi:
+    name: Auflösung (DPI)
+    description: Auflösung für die PWG-Raster-Ausgabe. Höhere Werte erzeugen größere Dateien.
+
+network:
+  8099/tcp: Der interne HTTP-Port (nicht nach außen freigegeben)
